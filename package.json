@@ -1,6 +1,6 @@
 {
   "name": "enough-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Really small JavaScript class for formatting test output",
   "main": "report.js",
   "scripts": {

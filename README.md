@@ -11,7 +11,7 @@ This is enough for lots of stuff.
 ## install
 
 ```
-npm install -saveDev enough-test
+npm install --save-dev enough-test
 ```
 
 ## purpose 
