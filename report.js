@@ -1,9 +1,6 @@
 const {execSync} = require('child_process');
 
-
-
 let g_test_reports = []
-
 
 const Reset = "\x1b[0m"
 const Bright = "\x1b[1m"
@@ -78,8 +75,10 @@ function test_report() {
 
 function kill(message) {
     console.log("unsafe to continue because : " + message)
+    console.log("...")
+    console.log("...")
+    process.exit(1)
 }
-
 
 function title(s) {
     let b = execSync('tput bold')
